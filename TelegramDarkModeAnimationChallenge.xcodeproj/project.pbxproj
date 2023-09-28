@@ -11,6 +11,8 @@
 		5E64DD412AC59735005D89FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64DD402AC59735005D89FD /* ContentView.swift */; };
 		5E64DD432AC59736005D89FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E64DD422AC59736005D89FD /* Assets.xcassets */; };
 		5E64DD462AC59736005D89FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E64DD452AC59736005D89FD /* Preview Assets.xcassets */; };
+		5E64DD4E2AC59774005D89FD /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64DD4D2AC59774005D89FD /* View+Extensions.swift */; };
+		5E64DD502AC59B6D005D89FD /* RectKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64DD4F2AC59B6D005D89FD /* RectKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5E64DD402AC59735005D89FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E64DD422AC59736005D89FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E64DD452AC59736005D89FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E64DD4D2AC59774005D89FD /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		5E64DD4F2AC59B6D005D89FD /* RectKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		5E64DD3D2AC59735005D89FD /* TelegramDarkModeAnimationChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				5E64DD4C2AC5975A005D89FD /* Helpers */,
 				5E64DD3E2AC59735005D89FD /* TelegramDarkModeAnimationChallengeApp.swift */,
 				5E64DD402AC59735005D89FD /* ContentView.swift */,
 				5E64DD422AC59736005D89FD /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				5E64DD452AC59736005D89FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E64DD4C2AC5975A005D89FD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5E64DD4D2AC59774005D89FD /* View+Extensions.swift */,
+				5E64DD4F2AC59B6D005D89FD /* RectKey.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E64DD412AC59735005D89FD /* ContentView.swift in Sources */,
+				5E64DD4E2AC59774005D89FD /* View+Extensions.swift in Sources */,
 				5E64DD3F2AC59735005D89FD /* TelegramDarkModeAnimationChallengeApp.swift in Sources */,
+				5E64DD502AC59B6D005D89FD /* RectKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
